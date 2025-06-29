@@ -8,6 +8,7 @@
 <title>Handcrafted Thai Spa and Wellness Massage</title>
 <script src="https://cdn.tailwindcss.com"></script>
 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet"/>
 <link href="https://fonts.googleapis.com" rel="preconnect"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&amp;family=Poppins:wght@300;400;500;600&amp;display=swap" rel="stylesheet"/>
@@ -25,6 +26,7 @@
                         }
                     },
                     fontFamily: {
+                        montserrat: ['Montserrat', 'sans-serif'],
                         playfair: ['Playfair Display', 'serif'],
                         poppins: ['Poppins', 'sans-serif']
                     }
@@ -34,11 +36,11 @@
     </script>
 <style>
         body {
-            font-family: 'Poppins', sans-serif;
+            font-family: sans-serif;
             scroll-behavior: smooth;
         }
         .playfair {
-            font-family: 'Playfair Display', serif;
+            font-family: 'Montserrat', sans-serif;
         }
         .service-card:hover {
             transform: translateY(-5px);
@@ -69,6 +71,11 @@
         .testimonial-slide {
             scroll-snap-align: start;
         }
+    
+        body, p, span, li, a, div, h1, h2, h3, h4, h5, h6 {
+            color: #333333;
+        }
+
     </style>
 </head>
 <body class="bg-spa-light">
@@ -107,10 +114,10 @@
 <section class="relative py-24 md:py-32" id="home" style="background-image: url('https://i.postimg.cc/nVPjbWJY/Screenshot-2025-06-28-145538.png'); background-size: cover; background-position: center;">
 <div class="bg-black bg-opacity-40 absolute inset-0"></div>
 <div class="relative container mx-auto px-4 text-center text-white">
-<h1 class="playfair text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
+<h1 class="playfair text-white text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight" style="color:#FFFFFF;">
                 Healing Space Created with<br/>Heart, Hands, and Harmony
             </h1>
-<p class="text-lg md:text-xl mb-8 max-w-2xl mx-auto font-light">
+<p class="text-white text-lg md:text-xl mb-8 max-w-2xl mx-auto font-light" style="color:#FFFFFF;">
                 More than just massage, it's a healing space created with heart, hands, and harmony.
             </p>
 <a class="inline-block bg-spa-primary text-white px-8 py-3 rounded-full text-base font-medium hover:bg-spa-dark transition" href="https://booksy.com/en-us/1410697_handcrafted-thai-spa-and-wellness-massage_massage_134789_san-antonio?hl=en-US&amp;gei=HX1faJOpDrvcptQP0rvQqAY" target="_blank">
@@ -318,8 +325,8 @@
 </div>
 </div>
 <div class="absolute -bottom-6 -right-6 bg-spa-primary text-white p-4 rounded-lg shadow-lg">
-<div class="font-bold">Tinna Bhasaprome</div>
-<div class="text-sm">Founder &amp; Therapist</div>
+<div class="font-bold text-white" style="color:#FFFFFF;">Tinna Bhasaprome</div>
+<div class="text-sm text-white" style="color:#FFFFFF;">Founder &amp; Therapist</div>
 </div>
 </div>
 <div class="mt-6">
